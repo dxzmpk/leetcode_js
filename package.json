@@ -19,6 +19,6 @@
   "homepage": "https://github.com/dxzmpk/leetcode_js#readme",
   "type": "module",
   "publishConfig": {
-    "@dxzmpk:registry": "https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com"
   }
 }
