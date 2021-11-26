@@ -1,10 +1,10 @@
 {
   "name": "@dxzmpk/leetcode",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "storage for leetcode",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
   "author": "dxzmpk",
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/dxzmpk/leetcode_js/issues"
   },
-  "homepage": "https://github.com/dxzmpk/leetcode_js#readme"
+  "homepage": "https://github.com/dxzmpk/leetcode_js#readme",
+  "type": "module"
 }

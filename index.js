@@ -1,1 +1,0 @@
-export Outer from './closure'

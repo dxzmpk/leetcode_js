@@ -1,4 +1,4 @@
-const Outer = function outer() {
+export default function outer () {
     let b = 10;
     function inner() {
 
@@ -9,6 +9,3 @@ const Outer = function outer() {
     b+=2;
     return inner;
 }
-
-const X = Outer();  // outer() invoked the first time
-module.exports = [Outer, X]
