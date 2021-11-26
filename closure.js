@@ -1,6 +1,5 @@
-function outer() {
+const Outer = function outer() {
     let b = 10;
-    var c = 100;
     function inner() {
 
         let a = 20;
@@ -11,7 +10,5 @@ function outer() {
     return inner;
 }
 
-var X = outer();  // outer() invoked the first time
-var Y = outer();  // outer() invoked the second time
-//end of outer() function executions
-X(); // X() invoked the first time
+const X = Outer();  // outer() invoked the first time
+module.exports = [Outer, X]

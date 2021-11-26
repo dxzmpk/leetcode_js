@@ -1,12 +1,20 @@
 {
-  "name": "leetcode",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@dxzmpk/leetcode",
+  "version": "1.0.1",
+  "description": "storage for leetcode",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "dxzmpk",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxzmpk/leetcode_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dxzmpk/leetcode_js/issues"
+  },
+  "homepage": "https://github.com/dxzmpk/leetcode_js#readme"
 }
