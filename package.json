@@ -1,6 +1,6 @@
 {
   "name": "@dxzmpk/leetcode",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "storage for leetcode",
   "main": "src/index.js",
   "scripts": {
