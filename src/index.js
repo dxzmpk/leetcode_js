@@ -1,1 +1,1 @@
-export {default as outer} from "./closure.js";
+export {array, stack, queue, set, map, hash_table, binary_search_tree, heap} from "./data_properties.js";
