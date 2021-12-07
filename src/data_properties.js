@@ -23,5 +23,10 @@ const map = new DataStructure("map", CANT, "EXISTENCE", 1, 1, "存储对应关�
 const hash_table = new DataStructure("hash_table", CANT, 1, 1, 1, "存储对应关系，通过哈希函数实现快速查找");
 const binary_search_tree = new DataStructure("binary_search_tree", CANT, LOGN, LOGN, LOGN, "通过二分查找, 不需要数组的有序性，而是通过自身保证的");
 const heap = new DataStructure("heap", CANT, N, 1, LOGN, "用于快速查找最大最小值, 父节点的值大于子节点的值");
-console.log(heap.toString());
-export {array, stack, queue, set, map, hash_table, binary_search_tree, heap};
+const all = [array, stack, queue, set, map, hash_table, binary_search_tree, heap];
+const print_all = function () {
+    for (const structure of all) {
+        console.log(structure.toString() + '\n');
+    }
+}
+export {array, stack, queue, set, map, hash_table, binary_search_tree, heap, print_all};
