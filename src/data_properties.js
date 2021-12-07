@@ -8,7 +8,7 @@ class DataStructure{
         this.Master = Master;
     }
     toString() {
-        return JSON.stringify(this);
+        return JSON.stringify(this).replace("\"NAME\":", "");
     }
 }
 let N = "n";
@@ -56,7 +56,7 @@ const search = function (action) {
         return power_a - power_b;
     });
     for (const structure of action_map) {
-        console.log(JSON.stringify(structure) + '\n');
+        console.log(JSON.stringify(structure).replace("\"NAME\":", "") + '\n');
     }
 }
 export {print_all, search};
