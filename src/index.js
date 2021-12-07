@@ -1,1 +1,1 @@
-export {array, stack, queue, set, map, hash_table, binary_search_tree, heap, print_all} from "./data_properties.js";
+export {print_all, search} from "./data_properties.js";
