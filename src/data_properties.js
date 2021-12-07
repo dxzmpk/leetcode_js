@@ -60,5 +60,3 @@ const search = function (action) {
     }
 }
 export {print_all, search};
-
-search("Insert");
